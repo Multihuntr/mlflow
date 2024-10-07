@@ -15,9 +15,6 @@ import configureStore from 'redux-mock-store';
 import promiseMiddleware from 'redux-promise-middleware';
 import { ExperimentListView } from './ExperimentListView';
 import Fixtures from '../utils/test-utils/Fixtures';
-import { DeleteExperimentModal } from './modals/DeleteExperimentModal';
-import { RenameExperimentModal } from './modals/RenameExperimentModal';
-import { CreateExperimentModal } from './modals/CreateExperimentModal';
 import { createExperimentPageUIState } from './experiment-page/models/ExperimentPageUIState';
 import { DesignSystemProvider } from '@databricks/design-system';
 

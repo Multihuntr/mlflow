@@ -38,7 +38,7 @@ export type ExperimentListViewProps = {
   setUIState: React.Dispatch<React.SetStateAction<ExperimentPageUIState>>;
 } & DesignSystemHocProps;
 
-export const ExperimentListViewInner = ({
+export const ExperimentListView = ({
   activeExperimentIds,
   experiments,
   navigate,
@@ -303,7 +303,6 @@ export const ExperimentListViewInner = ({
     </div>
   );
 }
-export const ExperimentListView = React.memo(ExperimentListViewInner)
 
 const classNames = {
   experimentListOuterContainer: css({
